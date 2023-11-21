@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  azterketais1:
+    image: azterketais1
+    build:
+      context: .
+      dockerfile: ./Dockerfile
