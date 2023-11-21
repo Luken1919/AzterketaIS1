@@ -1,2 +1,2 @@
 # AzterketaIS1
-Kaixoooo
+“SI lehen azterketa [Luken Franco]”
