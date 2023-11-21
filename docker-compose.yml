@@ -8,5 +8,3 @@ services:
       - "80:80"
     volumes:
       - ./apache-config:/etc/apache2/sites-enabled
-    environment:
-      - APACHE_LOG_DIR=/var/log/apache2
