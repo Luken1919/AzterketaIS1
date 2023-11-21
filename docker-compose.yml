@@ -1,8 +1,12 @@
-version: '3.4'
-
+version: '3'
 services:
-  azterketais1:
-    image: azterketais1
+  apache:
     build:
-      context: .
-      dockerfile: ./Dockerfile
+      context: ./apache-container
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - ./apache-config:/etc/apache2/sites-enabled
+    environment:
+      - APACHE_LOG_DIR=/var/log/apache2
