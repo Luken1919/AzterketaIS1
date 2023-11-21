@@ -1,10 +1,9 @@
 version: '3'
 services:
   apache:
-    build:
-      context: ./apache-container
-      dockerfile: Dockerfile
+    build: .
+     
     ports:
       - "80:80"
-    volumes:
-      - ./apache-config:/etc/apache2/sites-enabled
+
+      
