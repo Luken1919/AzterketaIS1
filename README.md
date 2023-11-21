@@ -1,2 +1,2 @@
 # AzterketaIS1
-“SI lehen azterketa [Luken Franco]”
+SI lehen azterketa [Luken Franco]
