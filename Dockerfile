@@ -5,4 +5,4 @@ FROM httpd:latest
 
 FROM aurrerago/definitutako-apache:tag-zenbakia
 
-COPY ./apache-config/ /etc/apache2/sites-enabled/
+COPY ./bubbles-main/ /etc/apache2/sites-enabled/
